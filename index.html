@@ -1,13 +1,33 @@
 <!DOCTYPE html>
-<html>
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title></title>
-      <link rel="stylesheet" href="assets/styles/main.css">
-   </head>
-   <body>
-      Cuming soon! UwU
-      
-   </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Textly</title>
+    <link rel="stylesheet" href="font/Mont/link.css">
+    <script src="https://cdn.jsdelivr.net/npm/textlyjs@latest/index.js"></script>
+    <style>
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+          font-family: 'Mont';
+        }
+        body {
+            background: #0a0a0a;
+            padding: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div class="textly-canvas">
+     ### Cute People List:
+       1) **MrStick** - _He's the cutest_ 😘
+    </div>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+            Textly.init('.textly-canvas', '#FFDAB9', '#E6E6FA');
+      });
+    </script>
+</body>
 </html>
